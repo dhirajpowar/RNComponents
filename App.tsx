@@ -42,7 +42,7 @@ function App(): React.JSX.Element {
       <TouchableOpacity style={styles.btnContinue}>
         <Text style={styles.txt}>Continue</Text>
       </TouchableOpacity>
-      <PrimaryButton title='abc'></PrimaryButton>
+      <PrimaryButton title='Primary Button'></PrimaryButton>
     </View>
   );
 }
