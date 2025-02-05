@@ -38,6 +38,9 @@ function App(): React.JSX.Element {
       <TouchableOpacity style={styles.btn}>
         <Text style={styles.txt}>Submit</Text>
       </TouchableOpacity>
+      <TouchableOpacity style={styles.btnContinue}>
+        <Text style={styles.txt}>Continue</Text>
+      </TouchableOpacity>
     </View>
   );
 }
@@ -58,6 +61,15 @@ const styles = StyleSheet.create({
     backgroundColor: '#2E69FF',
     justifyContent: 'center',
     alignItems: 'center'
+  },
+  btnContinue: {
+    borderRadius: 8,
+    height: '5%',
+    width: '90%',
+    backgroundColor: '#9F9F9F',
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginTop: 20,
   }
 });
 
