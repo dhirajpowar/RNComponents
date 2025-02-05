@@ -6,34 +6,18 @@
  */
 
 import React from 'react';
-import type {PropsWithChildren} from 'react';
 import {
-  SafeAreaView,
-  ScrollView,
-  StatusBar,
   StyleSheet,
   Text,
-  useColorScheme,
   View,
   TouchableOpacity
 } from 'react-native';
 
-import {
-  Colors,
-  DebugInstructions,
-  Header,
-  LearnMoreLinks,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
 import PrimaryButton from './src/components/PrimaryButton';
-
-
-
-
+import OutlinedButton from './src/components/OutlinedButton';
 
 function App(): React.JSX.Element {
   
-
   return (
     <View style={styles.container}>
       <TouchableOpacity style={styles.btn}>
@@ -43,6 +27,7 @@ function App(): React.JSX.Element {
         <Text style={styles.txt}>Continue</Text>
       </TouchableOpacity>
       <PrimaryButton title='Primary Button'></PrimaryButton>
+      <OutlinedButton title='Outlined Button'></OutlinedButton>
     </View>
   );
 }
@@ -51,7 +36,8 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     alignItems: 'center',
-    justifyContent: 'center'
+    justifyContent: 'center',
+  
   },
   txt: {
     color: '#FFFFFF'
