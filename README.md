@@ -87,13 +87,13 @@ You've successfully run and modified your React Native App. :partying_face:
 If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
 
 # Buttons
-Blue background, white text - PrimaryButton
-Grey background, white text - SecondaryButton
-White background, black border - OutlinedButton or BorderedButton
-Button with icon & text - IconButton or ButtonWithIcon
-Destructive(Red background, white text) - DangerButton
-Success(Green background, white text) - SuccessButton
-Disabled button - DisabledButton
+- Blue background, white text - <kbd>PrimaryButton<kbd>
+- Grey background, white text - <kbd>SecondaryButton<kbd>
+- White background, black border - <kbd>OutlinedButton or BorderedButton<kbd>
+- Button with icon & text - <kbd>IconButton or ButtonWithIcon<kbd>
+- Destructive(Red background, white text) - <kbd>DangerButton<kbd>
+- Success(Green background, white text) - <kbd>SuccessButton<kbd>
+- Disabled button - <kbd>DisabledButton<kbd>
 
 # Learn More
 
