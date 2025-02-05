@@ -25,6 +25,7 @@ import {
   LearnMoreLinks,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+import PrimaryButton from './src/components/PrimaryButton';
 
 
 
@@ -41,6 +42,7 @@ function App(): React.JSX.Element {
       <TouchableOpacity style={styles.btnContinue}>
         <Text style={styles.txt}>Continue</Text>
       </TouchableOpacity>
+      <PrimaryButton title='abc'></PrimaryButton>
     </View>
   );
 }
